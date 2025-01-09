@@ -1,25 +1,25 @@
 body {
-    background-color: #C3F73A;
+    background-color: #c3f73a;
 }
 
 #intro {
-    color: #682D63;
+    color: #682d63;
     height: 100vh;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-@media only screen and (max-width: 600px){
-    #intro h1{
+@media only screen and (max-width: 600px) {
+    #intro h1 {
         font-size: 48px;
     }
 
-    intro code{
+    intro code {
         font-size: 48px;
     }
 }
 
-@keyframes fadein{
-    from{
+@keyframes fadein {
+    from {
         opacity: 0;
     }
     to {
@@ -32,16 +32,15 @@ body {
     animation: fadein ease-in 1s;
 }
 
-
 #intro h3 {
-    color: #CC978E;
+    color: #cc978e;
     animation-delay: 1s;
     animation-name: fadein;
     animation-delay: 2s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     opacity: 0;
-} 
+}
 
 #intro code {
     margin-top: 20px;
@@ -62,35 +61,35 @@ body {
     left: calc(50% - 37.5px);
 }
 
-#Bio{
-    background: #F8C630;
+#Bio {
+    background: #f8c630;
     color: #436436;
     padding: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-section{
-    box-shadow: -10px 0px 25px #272D2D;
+section {
+    box-shadow: -10px 0px 25px #272d2d;
 }
 
 .section h1 {
-    color: #682D63;
+    color: #682d63;
 }
 
 .section p {
-    color: #CC978E;
+    color: #cc978e;
 }
 
 #contact {
-    background: #FA7921;
-    color:#436436 ;
+    background: #fa7921;
+    color: #436436;
     padding: 30px;
     margin-bottom: 15px;
 }
 
 #contact a {
-    color: #682D63; 
+    color: #682d63;
 }
 
 #email {
@@ -107,23 +106,25 @@ form textarea {
 form .btn-primary {
     width: 100%;
     margin-top: 15px;
-    background-color: #682D63;
+    background-color: #682d63;
 }
 
 #portfolio {
-    background-color: #F8C630;
+    background-color: #f8c630;
     padding: 30px;
 }
 
-.section, h1 {
-    color: #682D63;
+.section,
+h1 {
+    color: #682d63;
 }
 
-.section, p {
+.section,
+p {
     color: #436436;
 }
 
 footer {
-    color: #682D63;
+    color: #682d63;
     padding: 30px;
 }
