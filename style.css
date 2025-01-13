@@ -1,9 +1,9 @@
 body {
-    background-color: #c3f73a;
+    background-color: black;
 }
 
 #intro {
-    color: #682d63;
+    color: white;
     height: 100vh;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -30,10 +30,11 @@ body {
 #intro h1 {
     font-size: 96px;
     animation: fadein ease-in 1s;
+    color: white;
 }
 
 #intro h3 {
-    color: #cc978e;
+    color: white;
     animation-delay: 1s;
     animation-name: fadein;
     animation-delay: 2s;
@@ -43,6 +44,7 @@ body {
 }
 
 #intro code {
+    color: white;
     margin-top: 20px;
     font-size: 30px;
     text-align: center;
@@ -54,7 +56,7 @@ body {
 }
 
 #arrowDown {
-    color: #436436;
+    color: white;
     font-size: 75px;
     position: absolute;
     bottom: 30px;
@@ -82,14 +84,14 @@ section {
 }
 
 #contact {
-    background: #fa7921;
-    color: #436436;
+    background: #6f6866;
+    color: white;
     padding: 30px;
     margin-bottom: 15px;
 }
 
 #contact a {
-    color: #682d63;
+    color: #6f6866;
 }
 
 #email {
@@ -116,7 +118,7 @@ form .btn-primary {
 
 .section,
 h1 {
-    color: #682d63;
+    color: white;
 }
 
 .section,
@@ -125,6 +127,6 @@ p {
 }
 
 footer {
-    color: #682d63;
+    color: white;
     padding: 30px;
 }
